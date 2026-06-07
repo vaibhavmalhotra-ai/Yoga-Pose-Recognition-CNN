@@ -42,12 +42,11 @@ This project implements a complete comparative analysis of three CNN-based model
 ```
 yoga-pose-recognition/
 │
-├── yoga_pose_cnn_final.ipynb       # Main Kaggle notebook (complete implementation)
-├── yoga_pose_proposal.docx         # Phase 2 proposal document
-├── README.md                       # This file
+├── yoga_pose_cnn_final.ipynb                           # Main Kaggle notebook (complete implementation)
+├── README.md                                           # This file
 │
 ├── outputs/
-│   ├── figures/                    # All generated PDF figures
+│   ├── figures/                                        # All generated PDF figures
 │   │   ├── figure1_dataset_samples.pdf
 │   │   ├── figure3_combined_training_curves.pdf
 │   │   ├── figure5_gradcam_correct.pdf
@@ -65,7 +64,7 @@ yoga-pose-recognition/
 │   │   ├── resnet50_training_curves.pdf
 │   │   └── resnet50_confusion_matrix.pdf
 │   │
-│   └── tables/                     # All generated CSV tables
+│   └── tables/                                         # All generated CSV tables
 │       ├── dataset_summary.csv
 │       ├── class_image_counts.csv
 │       ├── model_evaluation_results.csv
