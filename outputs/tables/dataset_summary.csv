@@ -1,0 +1,2 @@
+dataset_name,source,num_classes,total_images,min_images_per_class,max_images_per_class,avg_images_per_class,image_size_used,task_type
+Yoga Posture Dataset,Kaggle (tr1gg3rtrash),47,2756,12,96,58.6,224x224,Multi-class image classification

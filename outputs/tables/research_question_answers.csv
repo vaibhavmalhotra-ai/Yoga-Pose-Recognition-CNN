@@ -1,0 +1,8 @@
+RQ,Question,Answer
+RQ1,How accurately does a custom CNN classify yoga poses?,The Custom CNN achieved 0.4307 accuracy on the 47-class test set.
+RQ2,Does transfer learning improve classification over a custom CNN?,Yes. MobileNetV2 and ResNet50 both outperformed the Custom CNN. Best accuracy: ResNet50 at 0.7372.
+RQ3,Which model provides the best performance vs. computational cost trade-off?,MobileNetV2 offers the best trade-off (F1/log10(params) score: 0.0967).
+RQ4,Which image regions does each model focus on for correct predictions (Grad-CAM)?,"See Figure 5. Transfer learning models focus on pose-defining body joints; the Custom CNN shows broader, less precise attention."
+RQ5,Do Grad-CAM patterns differ between custom CNN and transfer learning models?,Yes. See Figures 5 and 6. MobileNetV2 and ResNet50 produce more localised heatmaps than the Custom CNN.
+RQ6,What do SHAP explanations reveal about visual evidence used by each model?,See Figure 7. SHAP magnitude maps show which pixels positively influence predictions; transfer models highlight body silhouette regions.
+RQ7,Can explainability methods diagnose why certain images are misclassified?,Yes. See Figure 6. Grad-CAM for misclassified images often reveals attention on background or overlapping body parts rather than the pose-defining region.

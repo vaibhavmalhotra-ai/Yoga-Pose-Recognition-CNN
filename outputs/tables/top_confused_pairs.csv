@@ -1,0 +1,16 @@
+model,true_class,predicted_as,confusion_rate
+Custom CNN,Parsva Virabhadrasana,Trikonasana,1.0
+Custom CNN,Alanasana,Ashta Chandrasana,0.667
+Custom CNN,Navasana,Hanumanasana,0.5
+Custom CNN,Dhanurasana,Halasana,0.429
+Custom CNN,Ardha Matsyendrasana,Padmasana,0.333
+MobileNetV2,Pincha Mayurasana,Salamba Sarvangasana,0.667
+MobileNetV2,Alanasana,Ashta Chandrasana,0.667
+MobileNetV2,Ashta Chandrasana,Virabhadrasana One,0.667
+MobileNetV2,Uttanasana,Bakasana,0.333
+MobileNetV2,Baddha Konasana,Padmasana,0.333
+ResNet50,Supta Kapotasana,Balasana,1.0
+ResNet50,Alanasana,Ashta Chandrasana,0.667
+ResNet50,Upavistha Konasana,Padmasana,0.667
+ResNet50,Parsva Virabhadrasana,Trikonasana,0.5
+ResNet50,Ardha Chandrasana,Vasisthasana,0.429

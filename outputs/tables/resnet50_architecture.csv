@@ -1,0 +1,7 @@
+model,layer_name,layer_type,output_shape,parameters,trainable
+resnet50,input,InputLayer,N/A,0,True
+resnet50,resnet50,Functional,"(None, 7, 7, 2048)",23587712,True
+resnet50,global_average_pooling2d_3,GlobalAveragePooling2D,N/A,0,True
+resnet50,dense_3,Dense,N/A,524544,True
+resnet50,dropout_11,Dropout,N/A,0,True
+resnet50,predictions,Dense,N/A,12079,True

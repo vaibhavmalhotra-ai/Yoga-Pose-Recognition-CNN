@@ -1,0 +1,4 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,training_time_s,total_parameters,trainable_params,frozen_params,gradcam_quality_1_to_5,shap_interpretability_1_to_5,explanation_note,overall_finding
+Custom CNN,0.4307,0.4398,0.4298,0.4019,749.5,1331791,1329871,1920,3,3,Custom CNN Grad-CAM maps may be diffuse because features are learned from a small dataset only.,Baseline model trained from scratch; establishes lower-bound performance on 47-class yoga recognition.
+MobileNetV2,0.6569,0.6311,0.6441,0.62,614.5,2597999,1866415,731584,4,4,MobileNetV2 Grad-CAM focuses on body pose regions; SHAP highlights discriminative joints.,Efficient transfer learning; strong accuracy with fewer parameters and fastest inference.
+ResNet50,0.7372,0.7086,0.6972,0.687,720.4,24124335,16368431,7755904,4,4,ResNet50 produces strong localisation of pose-defining regions in Grad-CAM.,Deepest model; highest accuracy but largest parameter count and longest training time.

@@ -1,0 +1,5 @@
+True Label,Predicted Label,Confidence,Image Path
+Trikonasana,Virabhadrasana Two,0.8018527626991272,/kaggle/input/datasets/tr1gg3rtrash/yoga-posture-dataset/Trikonasana/File11.jpeg
+Paschimottanasana,Ardha Matsyendrasana,0.7090663313865662,/kaggle/input/datasets/tr1gg3rtrash/yoga-posture-dataset/Paschimottanasana/File15.png
+Ardha Matsyendrasana,Malasana,0.7029085755348206,/kaggle/input/datasets/tr1gg3rtrash/yoga-posture-dataset/Ardha Matsyendrasana/File3.png
+Virabhadrasana One,Anjaneyasana,0.6117347478866577,/kaggle/input/datasets/tr1gg3rtrash/yoga-posture-dataset/Virabhadrasana One/File46.png

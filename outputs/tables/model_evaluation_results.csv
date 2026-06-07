@@ -1,0 +1,4 @@
+model,accuracy,macro_precision,macro_recall,macro_f1,training_time_s,total_parameters,trainable_params,frozen_params
+Custom CNN,0.4307,0.4398,0.4298,0.4019,749.5,1331791,1329871,1920
+MobileNetV2,0.6569,0.6311,0.6441,0.62,614.5,2597999,1866415,731584
+ResNet50,0.7372,0.7086,0.6972,0.687,720.4,24124335,16368431,7755904

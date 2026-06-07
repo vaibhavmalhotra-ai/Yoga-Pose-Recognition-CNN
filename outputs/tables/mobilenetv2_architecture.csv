@@ -1,0 +1,7 @@
+model,layer_name,layer_type,output_shape,parameters,trainable
+mobilenetv2,input,InputLayer,N/A,0,True
+mobilenetv2,mobilenetv2_1.00_224,Functional,"(None, 7, 7, 1280)",2257984,True
+mobilenetv2,global_average_pooling2d_2,GlobalAveragePooling2D,N/A,0,True
+mobilenetv2,dense_2,Dense,N/A,327936,True
+mobilenetv2,dropout_10,Dropout,N/A,0,True
+mobilenetv2,predictions,Dense,N/A,12079,True

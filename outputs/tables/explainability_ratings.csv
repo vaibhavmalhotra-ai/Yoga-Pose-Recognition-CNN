@@ -1,0 +1,4 @@
+model,gradcam_quality_1_to_5,shap_interpretability_1_to_5,explanation_note
+Custom CNN,3,3,Custom CNN Grad-CAM maps may be diffuse because features are learned from a small dataset only.
+MobileNetV2,4,4,MobileNetV2 Grad-CAM focuses on body pose regions; SHAP highlights discriminative joints.
+ResNet50,4,4,ResNet50 produces strong localisation of pose-defining regions in Grad-CAM.
